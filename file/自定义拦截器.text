@@ -1,0 +1,4 @@
+1、拦截器来带的其他影响：
+    1.1 ：swagger 无法访问请求，在HeaderTokenInterceptor  配置静态资源,避免静态资源请求被拦截
+2、自定义拦截器配置类  MyInterceptorConfig
+3、自定义拦截器 HeaderTokenInterceptor implements HandlerInterceptor
