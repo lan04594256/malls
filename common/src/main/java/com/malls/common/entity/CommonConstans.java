@@ -7,7 +7,7 @@ package com.malls.common.entity;
  */
 public class CommonConstans {
     /**
-     * 验证码有效时长
+     * 验证码有效时长 
      */
     public static final Long VERIFY_CODE_OUT_TIME=600000L;
 
