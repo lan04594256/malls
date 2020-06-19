@@ -17,7 +17,7 @@ import java.io.IOException;
  * @author: <a href=mailto:lanwenliang@yidianlife.com>蓝文良</a>
  */
 @Slf4j
-@Component
+@Component("headerTokenInterceptor1")
 public class HeaderTokenInterceptor implements HandlerInterceptor {
 
     @Resource

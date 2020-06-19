@@ -9,12 +9,14 @@
         <module name="common" />
         <module name="service-base" />
         <module name="web" />
+        <module name="study" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.8" />
       <module name="group" target="1.8" />
       <module name="service-base" target="1.8" />
+      <module name="study" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -23,6 +25,7 @@
       <module name="common" options="-parameters" />
       <module name="group" options="-parameters" />
       <module name="service-base" options="-parameters" />
+      <module name="study" options="-parameters" />
       <module name="web" options="-parameters" />
     </option>
   </component>
